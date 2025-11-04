@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ngulik-3</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- membuat header -->
     <h1>Ngulik-3 Latihan html</h1>
     <h1>Header 1: Selamat Datang di Latihan HTML</h1>
@@ -14,167 +14,246 @@
     <h4>Header 4: Judul C</h4>
     <h5>Header 5: Judul D</h5>
     <h6>Header 6: Judul E</h6>
-    <hr>
+    <hr />
 
     <!-- membuat paragraf -->
-    <br>
-    <p>Ini adalah paragraf kedua. Buat: <b>Teks tebal,</b> <i>teks miring,</i> <u>dan teks garis bawah.</u></p>
+    <br />
+    <p>
+      Ini adalah paragraf kedua. Buat: <b>Teks tebal,</b> <i>teks miring,</i>
+      <u>dan teks garis bawah.</u>
+    </p>
 
-    <p>Kunjungi <a href="google.com">Google</a> untuk mencari <b><i><u>informasi.</u></i></b></p>
-    <hr>
-    
+    <p>
+      Kunjungi <a href="google.com">Google</a> untuk mencari
+      <b
+        ><i><u>informasi.</u></i></b
+      >
+    </p>
+    <hr />
+
     <!-- membuat gambar -->
     <h2>Gambar</h2>
-    <img src="./image/g9.png" alt="Big Hero 6" title="BIg Hero 6" width="320" height="240">
-    <hr>
+    <img
+      src="./image/g9.png"
+      alt="Big Hero 6"
+      title="BIg Hero 6"
+      width="150"
+      height="200"
+    />
+    <hr />
 
     <!-- membuat list -->
-     <h2>Daftar Belanja</h2>
-     <ul>
-        <li>Beras
+    <h2>Daftar Belanja</h2>
+    <ul>
+      <li>
+        Beras
         <ol>
-            <li>Pulen</li>
-            <li>Pera</li>
-            <li>Merah</li>
+          <li>Pulen</li>
+          <li>Pera</li>
+          <li>Merah</li>
         </ol>
-        </li>
+      </li>
 
-        <li> Telur
-            <ol>
-                <li>Ayam</li>
-                <li>Bebek</li>
-                <li>Puyuh</li>
-            </ol>
-        </li>
+      <li>
+        Telur
+        <ol>
+          <li>Ayam</li>
+          <li>Bebek</li>
+          <li>Puyuh</li>
+        </ol>
+      </li>
 
-        <li>Sayur
-            <ol>
-                <li>Bayam</li>
-                <li>Kangkung</li>
-                <li>Brokoli</li>
-            </ol>
-        </li>
-     </ul>
-     <hr>
+      <li>
+        Sayur
+        <ol>
+          <li>Bayam</li>
+          <li>Kangkung</li>
+          <li>Brokoli</li>
+        </ol>
+      </li>
+    </ul>
+    <hr />
 
-     <h2>Langkah Memasak</h2>
-     <ol>
-        <li>Cuci beras</li>
-        <li>Masukkan ke rice cooker</li>
-        <li>Tunggu sampai matang</li>
-     </ol>
-     <hr>
+    <h2>Langkah Memasak</h2>
+    <ol>
+      <li>Cuci beras</li>
+      <li>Masukkan ke rice cooker</li>
+      <li>Tunggu sampai matang</li>
+    </ol>
+    <hr />
 
-     <!-- membuat tabel -->
-      <table>
-        <tr>
-            <th>Nama</th>
-            <th>Umur</th>
-            <th>Kota</th>
-        </tr>
+    <!-- membuat tabel -->
+    <table border="10" cellpadding="50" cellspacing="10">
+      <tr>
+        <th>Nama</th>
+        <th>Umur</th>
+        <th>Kota</th>
+      </tr>
 
-        <tr>
-            <td>Ani</td>
-            <td>20</td>
-            <td>Jakarta</td>
-        </tr>
+      <tr>
+        <td>Ani</td>
+        <td>20</td>
+        <td>Jakarta</td>
+      </tr>
 
-        <tr>
-            <td>Budi</td>
-            <td>22</td>
-            <td>Bandung</td>
-        </tr>
-      </table>
+      <tr>
+        <td>Budi</td>
+        <td>22</td>
+        <td>Bandung</td>
+      </tr>
+    </table>
+    <hr />
 
-      <!-- membuat form -->
-       <form action="#" method="post">
-        
-        <!-- nama -->
-         <label for="nama">Nama:</label><br>
-         <input type="text" placeholder="Nama Lemgkap" name="nama" id="nama">
+    <!-- membuat form -->
+    <form action="#" method="post">
+      <h2>Formulir Kontak</h2>
 
-         <!-- Kelas -->
-          <label for="kelas">Kelas:</label>
-          <input type="number" placeholder="10" name="kelas" id="kelas">
+      <!-- nama -->
+      <label for="nama">Nama:</label><br />
+      <input
+        type="text"
+        placeholder="Nama Lemgkap"
+        name="nama"
+        id="nama"
+      /><br /><br />
 
-          <!-- gender -->
-           <label for="gender">Jenis Kelamin:</label><br>
-           <label><input type="radio" name="gender" id="gender">Pria</label>
-           <label><input type="radio" name="gender" id="gender">Wanita</label><br><br>
+      <!-- Kelas -->
+      <label for="kelas">Kelas:</label><br />
+      <input
+        type="number"
+        placeholder="10"
+        name="kelas"
+        id="kelas"
+        min="10"
+        max="12"
+      /><br /><br />
 
-           <!-- tanggal lahir -->
-            <label for="date">Tanggal lahir:</label><br>
-            <input type="date" name="date" id="date"><br><br>
+      <!-- gender -->
+      <label for="gender">Jenis Kelamin:</label><br />
+      <label><input type="radio" name="gender" id="gender" />Pria</label>
+      <label><input type="radio" name="gender" id="gender" />Wanita</label
+      ><br /><br />
 
-            <!-- nomor telepon -->
-             <label for="tel">Nomor Telepon:</label><br>
-             <input type="tel" placeholder="0812-7899-8898" name="tel" id="tel"><br><br>
+      <!-- tanggal lahir -->
+      <label for="date">Tanggal lahir:</label><br />
+      <input type="date" name="date" id="date" /><br /><br />
 
-             <!-- nomor absen -->
-              <label for="number">Nomor Absen:</label><br>
-              <input type="number" placeholder="15" name="number" id="number" min="1" max="100"><br><br>
+      <!-- nomor telepon -->
+      <label for="tel">Nomor Telepon:</label><br />
+      <input
+        type="tel"
+        placeholder="0812-7899-8898"
+        name="tel"
+        id="tel"
+      /><br /><br />
 
-              <!-- email -->
-               <label for="email">Email:</label><br>
-               <input type="email" placeholder="contoh@gmail.com" name="email" id="email"><br><br>
+      <!-- nomor absen -->
+      <label for="number">Nomor Absen:</label><br />
+      <input
+        type="number"
+        placeholder="15"
+        name="number"
+        id="number"
+        min="1"
+        max="100"
+      /><br /><br />
 
-               <!-- url -->
-                <label for="url">URL Project:</label><br>
-                <input type="url" placeholder="https://contoh.com" name="url" id="url"><br><br>
+      <!-- email -->
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        placeholder="contoh@gmail.com"
+        name="email"
+        id="email"
+      /><br /><br />
 
-                <!-- file -->
-                 <label for="file">Pilih File:</label><br>
-                 <input type="file" name="file" id="file"><br><br>
+      <!-- url -->
+      <label for="url">URL Project:</label><br />
+      <input
+        type="url"
+        placeholder="https://contoh.com"
+        name="url"
+        id="url"
+      /><br /><br />
 
-                 <!-- tanggal dan waktu -->
-                  <label for="date and time">Tanggal dan Waktu:</label><br>
-                  <input type="datetime-local" name="date and time" id="date and time"><br><br>
+      <!-- file -->
+      <label for="file">Pilih File:</label><br />
+      <input type="file" name="file" id="file" /><br /><br />
 
-                  <!-- pesan -->
-                   <label for="pesan">Pesan:</label><br>
-                   <textarea name="pesan" placeholder="Ketikkan sesuatu" id="pesan"></textarea><br><br>
+      <!-- tanggal dan waktu -->
+      <label for="date and time">Tanggal dan Waktu:</label><br />
+      <input
+        type="datetime-local"
+        name="date and time"
+        id="date and time"
+      /><br /><br />
 
-                   <!-- hobi -->
-                    <label for="hobi">Hobi:</label><br>
-                    <label><input type="checkbox" name="membaca" id="membaca">Membaca</label>
+      <!-- pesan -->
+      <label for="pesan">Pesan:</label><br />
+      <textarea
+        name="pesan"
+        placeholder="Ketikkan sesuatu"
+        id="pesan"
+      ></textarea
+      ><br /><br />
 
-                    <label><input type="checkbox" name="olahraga" id="olahraga">Olahraga</label><br><br>
+      <!-- hobi -->
+      <label for="hobi">Hobi:</label><br />
+      <label
+        ><input type="checkbox" name="membaca" id="membaca" />Membaca</label
+      >
 
-                    <!-- password -->
-                     <label for="password">Password:</label><br>
-                     <input type="password" placeholder="Masukkan password" name="password" id="password">
+      <label
+        ><input type="checkbox" name="olahraga" id="olahraga" />Olahraga</label
+      ><br /><br />
 
-                     <!-- kesulitan tugas -->
-                      <label for="range">Kesulitan Tugas:</label><br>
-                      <input type="range" name="radio" id="radio"><br><br>
+      <!-- password -->
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        placeholder="Masukkan password"
+        name="password"
+        id="password"
+      /><br /><br />
 
-                      <!-- mapel -->
-                       <label for="mapel">Mata Pelajaran:</label><br>
-                       <input type="search" placeholder="cari ..." name="mapel" id="mapel"><br><br>
+      <!-- kesulitan tugas -->
+      <label for="range">Kesulitan Tugas:</label><br />
+      <input type="range" name="radio" id="radio" /><br /><br />
 
-                       <!-- kirim -->
-                        <label for="kirim">Kirimkan jawaban Anda segera!</label><br><br>
-                        <button>Kirim!</button><br>
+      <!-- mapel -->
+      <label for="mapel">Mata Pelajaran:</label><br />
+      <input
+        type="search"
+        placeholder="cari ..."
+        name="mapel"
+        id="mapel"
+      /><br /><br />
 
-                        <!-- reset -->
-                         <input type="reset" name="reset" id="reset">
-                         <hr>
+      <!-- kirim -->
+      <label for="kirim">Kirimkan jawaban Anda segera!</label><br /><br />
+      <button>Kirim!</button><br /><br />
 
-                         <!-- audio -->
-                          <h2>Audio</h2><br>
-                         <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" controls></audio>
+      <!-- reset -->
+      <input type="reset" name="reset" id="reset" />
+      <hr />
 
-                         <!-- video -->
-                          <h2>Video</h2><br>
-                          <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls width="320" height="240"></video>
+      <!-- audio -->
+      <h2>Audio</h2>
+      <br />
+      <audio
+        src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+        controls
+      ></audio>
 
-
-
-
-
-
-
-
-       </form>
-</body>
+      <!-- video -->
+      <h2>Video</h2>
+      <br />
+      <video
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        controls
+        width="320"
+        height="240"
+      ></video>
+    </form>
+  </body>
 </html>
